@@ -90,3 +90,6 @@
 [19Dec2024 22:30:53.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee joined the game
 [19Dec2024 22:30:53.925] [Server thread/INFO] [Jade/]: Syncing config to Its_edurneee (760bb912-9e2f-3aa8-bd52-d489e01ce241)
 [19Dec2024 22:30:55.352] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
+[19Dec2024 22:58:04.245] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-64, y=1, z=298} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=north,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[19Dec2024 22:58:18.137] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-63, y=1, z=298} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=north,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[19Dec2024 22:58:47.091] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-61, y=1, z=290} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=west,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:

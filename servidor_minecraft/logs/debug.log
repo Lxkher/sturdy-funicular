@@ -985,3 +985,10 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [19Dec2024 22:40:30.956] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [19Dec2024 22:45:30.942] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [19Dec2024 22:45:30.955] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Dec2024 22:50:30.869] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Dec2024 22:50:30.877] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Dec2024 22:55:30.900] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Dec2024 22:55:30.907] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Dec2024 22:58:04.245] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-64, y=1, z=298} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=north,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[19Dec2024 22:58:18.137] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-63, y=1, z=298} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=north,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[19Dec2024 22:58:47.091] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-61, y=1, z=290} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=west,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
