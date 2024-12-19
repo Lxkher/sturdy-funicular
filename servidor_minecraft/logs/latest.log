@@ -79,3 +79,5 @@
 [19Dec2024 11:49:28.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lxkherr joined the game
 [19Dec2024 11:49:28.222] [Server thread/INFO] [Jade/]: Syncing config to Lxkherr (66dde4f8-3d0d-3748-8794-8e58d589233c)
 [19Dec2024 11:49:30.907] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2903ms or 58 ticks behind
+[19Dec2024 12:00:49.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Spectator Mode]
+[19Dec2024 12:00:56.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
