@@ -1007,3 +1007,9 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [20Dec2024 22:53:47.704] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [20Dec2024 22:53:47.737] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [20Dec2024 22:55:14.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set the time to 1000]
+[20Dec2024 22:58:47.670] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Dec2024 22:58:47.679] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Dec2024 23:03:47.703] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Dec2024 23:03:47.711] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Dec2024 23:04:18.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set the weather to clear]
+[20Dec2024 23:04:27.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set the time to 1000]
