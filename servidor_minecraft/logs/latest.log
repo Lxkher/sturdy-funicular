@@ -14,3 +14,5 @@
 [21Dec2024 00:50:01.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set the weather to clear]
 [21Dec2024 00:54:21.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set the time to 1000]
 [21Dec2024 00:57:39.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
+[21Dec2024 01:00:26.834] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_edurneee lost connection: Disconnected
+[21Dec2024 01:00:26.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee left the game
