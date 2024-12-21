@@ -8,3 +8,9 @@
 [21Dec2024 00:31:07.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set the weather to clear]
 [21Dec2024 00:44:56.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set the weather to clear]
 [21Dec2024 00:44:58.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set the time to 1000]
+[21Dec2024 00:49:16.377] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_edurneee moved too quickly! 9.808705967952392,-2.7862561107158683,-1.9087600151913193
+[21Dec2024 00:49:24.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
+[21Dec2024 00:49:29.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Creative Mode]
+[21Dec2024 00:50:01.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set the weather to clear]
+[21Dec2024 00:54:21.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set the time to 1000]
+[21Dec2024 00:57:39.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
