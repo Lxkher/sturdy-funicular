@@ -99,3 +99,49 @@
 [22Dec2024 00:24:29.417] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=3736, y=60, z=-690} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=east,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
 [22Dec2024 00:24:39.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set the time to 1000]
 [22Dec2024 00:24:41.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set the weather to clear]
+[22Dec2024 00:43:47.400] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@38731eb3
+[22Dec2024 00:43:47.441] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Its_edurneee[/100.94.146.84:52605] logged in with entity id 2139 at (3737.3366207263607, 70.45493436689094, -669.4679824387273)
+[22Dec2024 00:43:47.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee joined the game
+[22Dec2024 00:43:47.745] [Server thread/INFO] [Jade/]: Syncing config to Its_edurneee (760bb912-9e2f-3aa8-bd52-d489e01ce241)
+[22Dec2024 00:44:30.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
+[22Dec2024 00:44:32.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ven
+[22Dec2024 00:44:40.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ya viste el centro?
+[22Dec2024 00:45:15.131] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_edurneee lost connection: Disconnected
+[22Dec2024 00:45:15.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee left the game
+[22Dec2024 00:45:34.902] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6f2d498a
+[22Dec2024 00:45:34.916] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Its_edurneee[/100.94.146.84:52657] logged in with entity id 2446 at (3761.5556085268395, 65.0, -668.9812282679835)
+[22Dec2024 00:45:34.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee joined the game
+[22Dec2024 00:45:35.080] [Server thread/INFO] [Jade/]: Syncing config to Its_edurneee (760bb912-9e2f-3aa8-bd52-d489e01ce241)
+[22Dec2024 00:45:50.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> me mato
+[22Dec2024 00:47:08.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> vaya
+[22Dec2024 00:47:16.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> me ha pasado eso
+[22Dec2024 00:47:21.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> lit eso
+[22Dec2024 00:47:27.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> cubrido???????
+[22Dec2024 00:47:35.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> CUBRIDO!?
+[22Dec2024 00:47:39.968] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_edurneee lost connection: Kicked by an operator
+[22Dec2024 00:47:39.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee left the game
+[22Dec2024 00:47:40.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Kicked Its_edurneee: Kicked by an operator]
+[22Dec2024 00:47:40.053] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[22Dec2024 00:47:56.747] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@357f42d2
+[22Dec2024 00:47:56.760] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Its_edurneee[/100.94.146.84:52704] logged in with entity id 2958 at (3751.1157260015652, 63.0, -674.0794697741503)
+[22Dec2024 00:47:56.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee joined the game
+[22Dec2024 00:47:56.919] [Server thread/INFO] [Jade/]: Syncing config to Its_edurneee (760bb912-9e2f-3aa8-bd52-d489e01ce241)
+[22Dec2024 00:48:32.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
+[22Dec2024 00:48:38.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
+[22Dec2024 00:48:47.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> e
+[22Dec2024 00:48:54.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> y la tierra?
+[22Dec2024 00:48:56.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JAJAJJ
+[22Dec2024 00:49:01.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> el centro
+[22Dec2024 00:49:20.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Spectator Mode]
+[22Dec2024 00:49:21.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> fue 1 hora de mi vida
+[22Dec2024 00:49:22.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
+[22Dec2024 00:49:26.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> VALE?
+[22Dec2024 00:49:41.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> fue 1 hora de mi vida
+[22Dec2024 00:49:48.031] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_edurneee lost connection: Disconnected
+[22Dec2024 00:49:48.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee left the game
+[22Dec2024 00:50:00.302] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@68d04bfe
+[22Dec2024 00:50:00.313] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Its_edurneee[/100.94.146.84:52750] logged in with entity id 3374 at (3750.705540718669, 64.5, -703.4537994376504)
+[22Dec2024 00:50:00.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee joined the game
+[22Dec2024 00:50:00.418] [Server thread/INFO] [Jade/]: Syncing config to Its_edurneee (760bb912-9e2f-3aa8-bd52-d489e01ce241)
+[22Dec2024 00:50:26.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> lños caminos
+[22Dec2024 00:50:33.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> el cuadrado que ves en el mapa
