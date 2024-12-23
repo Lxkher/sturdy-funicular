@@ -987,3 +987,9 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [23Dec2024 22:35:45.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Creative Mode]
 [23Dec2024 22:38:09.202] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [23Dec2024 22:38:09.309] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23Dec2024 22:43:09.123] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23Dec2024 22:43:09.130] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23Dec2024 22:44:05.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
+[23Dec2024 22:44:40.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Creative Mode]
+[23Dec2024 22:48:09.101] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23Dec2024 22:48:09.106] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
