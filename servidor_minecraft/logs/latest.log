@@ -1,481 +1,88 @@
-[22Dec2024 00:20:35.299] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[22Dec2024 00:20:35.312] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[22Dec2024 00:20:35.997] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/sturdy-funicular/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[22Dec2024 00:20:36.788] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/sturdy-funicular/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
-[22Dec2024 00:20:36.795] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/sturdy-funicular/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[22Dec2024 00:20:36.813] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/sturdy-funicular/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[22Dec2024 00:20:36.817] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/sturdy-funicular/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[22Dec2024 00:20:37.169] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[22Dec2024 00:20:41.742] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[22Dec2024 00:20:41.851] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[22Dec2024 00:20:57.825] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[22Dec2024 00:21:05.335] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
-[22Dec2024 00:21:05.337] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
-[22Dec2024 00:21:09.996] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[22Dec2024 00:21:10.001] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[22Dec2024 00:21:10.006] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[22Dec2024 00:21:10.007] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[22Dec2024 00:21:10.009] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[22Dec2024 00:21:10.010] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[22Dec2024 00:21:10.011] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[22Dec2024 00:21:10.106] [main/INFO] [journeymap/]: Initializing Packet Registries
-[22Dec2024 00:21:10.205] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[22Dec2024 00:21:10.303] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[22Dec2024 00:21:10.362] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[22Dec2024 00:21:10.660] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
-[22Dec2024 00:21:12.801] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre35 Target: 7.0.0-pre35
-[22Dec2024 00:21:12.801] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[22Dec2024 00:21:13.130] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.4.6
-[22Dec2024 00:21:13.131] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Starting version check at https://maxhenkel.de/update/reap.json
-[22Dec2024 00:21:13.491] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Found status: UP_TO_DATE Current: 1.19.2-1.0.0 Target: null
-[22Dec2024 00:21:13.494] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[22Dec2024 00:21:13.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.7 Target: 5.9.8
-[22Dec2024 00:21:16.941] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22Dec2024 00:21:20.191] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/sturdy-funicular/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23119!/assets/.mcassetsroot' uses unexpected schema
-[22Dec2024 00:21:20.196] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/sturdy-funicular/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23119!/data/.mcassetsroot' uses unexpected schema
-[22Dec2024 00:21:28.272] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[22Dec2024 00:21:29.676] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1962 advancements
-[22Dec2024 00:21:31.360] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[22Dec2024 00:21:31.363] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[22Dec2024 00:21:31.363] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[22Dec2024 00:21:31.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[22Dec2024 00:21:31.824] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[22Dec2024 00:21:32.689] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[22Dec2024 00:21:32.945] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22Dec2024 00:21:32.945] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[22Dec2024 00:21:32.945] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22Dec2024 00:21:32.945] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[22Dec2024 00:21:33.500] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[22Dec2024 00:21:33.632] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[22Dec2024 00:21:35.022] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[22Dec2024 00:21:35.028] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[22Dec2024 00:21:48.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[22Dec2024 00:22:02.096] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.108] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.110] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.114] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.124] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.130] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.135] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.138] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.141] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.145] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.152] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.155] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.158] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.160] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.165] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.170] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.173] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.176] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.179] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.188] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.197] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.213] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.217] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.220] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.222] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.224] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:02.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:03.188] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:03.682] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:04.200] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:04.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:05.182] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Dec2024 00:22:05.729] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[22Dec2024 00:22:06.596] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[22Dec2024 00:22:06.681] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[22Dec2024 00:22:07.399] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 18718 ms
-[22Dec2024 00:22:07.401] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (34.343s)! For help, type "help"
-[22Dec2024 00:22:07.600] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[22Dec2024 00:24:23.634] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[22Dec2024 00:24:23.782] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@349815c8
-[22Dec2024 00:24:23.818] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Lxkherr[/100.71.123.106:55134] logged in with entity id 37 at (3753.5417109674204, 65.0, -689.097158138826)
-[22Dec2024 00:24:24.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lxkherr joined the game
-[22Dec2024 00:24:24.195] [Server thread/INFO] [Jade/]: Syncing config to Lxkherr (66dde4f8-3d0d-3748-8794-8e58d589233c)
-[22Dec2024 00:24:29.116] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5391ms or 107 ticks behind
-[22Dec2024 00:24:29.417] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=3736, y=60, z=-690} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=east,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
-[22Dec2024 00:24:39.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set the time to 1000]
-[22Dec2024 00:24:41.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set the weather to clear]
-[22Dec2024 00:43:47.400] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@38731eb3
-[22Dec2024 00:43:47.441] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Its_edurneee[/100.94.146.84:52605] logged in with entity id 2139 at (3737.3366207263607, 70.45493436689094, -669.4679824387273)
-[22Dec2024 00:43:47.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee joined the game
-[22Dec2024 00:43:47.745] [Server thread/INFO] [Jade/]: Syncing config to Its_edurneee (760bb912-9e2f-3aa8-bd52-d489e01ce241)
-[22Dec2024 00:44:30.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
-[22Dec2024 00:44:32.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ven
-[22Dec2024 00:44:40.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ya viste el centro?
-[22Dec2024 00:45:15.131] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_edurneee lost connection: Disconnected
-[22Dec2024 00:45:15.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee left the game
-[22Dec2024 00:45:34.902] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6f2d498a
-[22Dec2024 00:45:34.916] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Its_edurneee[/100.94.146.84:52657] logged in with entity id 2446 at (3761.5556085268395, 65.0, -668.9812282679835)
-[22Dec2024 00:45:34.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee joined the game
-[22Dec2024 00:45:35.080] [Server thread/INFO] [Jade/]: Syncing config to Its_edurneee (760bb912-9e2f-3aa8-bd52-d489e01ce241)
-[22Dec2024 00:45:50.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> me mato
-[22Dec2024 00:47:08.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> vaya
-[22Dec2024 00:47:16.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> me ha pasado eso
-[22Dec2024 00:47:21.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> lit eso
-[22Dec2024 00:47:27.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> cubrido???????
-[22Dec2024 00:47:35.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> CUBRIDO!?
-[22Dec2024 00:47:39.968] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_edurneee lost connection: Kicked by an operator
-[22Dec2024 00:47:39.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee left the game
-[22Dec2024 00:47:40.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Kicked Its_edurneee: Kicked by an operator]
-[22Dec2024 00:47:40.053] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[22Dec2024 00:47:56.747] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@357f42d2
-[22Dec2024 00:47:56.760] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Its_edurneee[/100.94.146.84:52704] logged in with entity id 2958 at (3751.1157260015652, 63.0, -674.0794697741503)
-[22Dec2024 00:47:56.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee joined the game
-[22Dec2024 00:47:56.919] [Server thread/INFO] [Jade/]: Syncing config to Its_edurneee (760bb912-9e2f-3aa8-bd52-d489e01ce241)
-[22Dec2024 00:48:32.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
-[22Dec2024 00:48:38.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
-[22Dec2024 00:48:47.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> e
-[22Dec2024 00:48:54.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> y la tierra?
-[22Dec2024 00:48:56.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JAJAJJ
-[22Dec2024 00:49:01.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> el centro
-[22Dec2024 00:49:20.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Spectator Mode]
-[22Dec2024 00:49:21.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> fue 1 hora de mi vida
-[22Dec2024 00:49:22.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
-[22Dec2024 00:49:26.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> VALE?
-[22Dec2024 00:49:41.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> fue 1 hora de mi vida
-[22Dec2024 00:49:48.031] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_edurneee lost connection: Disconnected
-[22Dec2024 00:49:48.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee left the game
-[22Dec2024 00:50:00.302] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@68d04bfe
-[22Dec2024 00:50:00.313] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Its_edurneee[/100.94.146.84:52750] logged in with entity id 3374 at (3750.705540718669, 64.5, -703.4537994376504)
-[22Dec2024 00:50:00.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee joined the game
-[22Dec2024 00:50:00.418] [Server thread/INFO] [Jade/]: Syncing config to Its_edurneee (760bb912-9e2f-3aa8-bd52-d489e01ce241)
-[22Dec2024 00:50:26.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> lños caminos
-[22Dec2024 00:50:33.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> el cuadrado que ves en el mapa
-[22Dec2024 00:50:45.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> nel
-[22Dec2024 00:50:49.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> pq no se q poner
-[22Dec2024 00:50:59.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> un moai JAJJAJJ
-[22Dec2024 00:51:06.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> va
-[22Dec2024 00:51:18.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
-[22Dec2024 00:51:22.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Spectator Mode]
-[22Dec2024 00:51:23.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> bro
-[22Dec2024 00:51:27.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
-[22Dec2024 00:51:31.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
-[22Dec2024 00:51:50.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> en el end me forré
-[22Dec2024 00:51:59.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> la espada q tengo y el pico
-[22Dec2024 00:52:18.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> el pico efi 5, ub 3 y mending
-[22Dec2024 00:52:40.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> la espada sharnes o como se escriba IV mending y si no recuerdo mal looting
-[22Dec2024 00:52:45.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> mentira
-[22Dec2024 00:52:54.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> la espada sharnes o como se escriba IV mending y ub 3
-[22Dec2024 00:53:06.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> y el casco
-[22Dec2024 00:53:11.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> vas a flipar
-[22Dec2024 00:53:18.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> me va a caer una broncaaaaaaaaa
-[22Dec2024 00:53:20.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> epica
-[22Dec2024 00:53:21.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: The difficulty has been set to Hard]
-[22Dec2024 00:53:22.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JAJAJJA
-[22Dec2024 00:53:35.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> no
-[22Dec2024 00:53:39.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> es por lo q hice
-[22Dec2024 00:53:48.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ya lo veras
-[22Dec2024 00:53:57.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> voy yte haces tp
-[22Dec2024 00:54:03.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> hazte
-[22Dec2024 00:54:05.882] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2157ms or 43 ticks behind
-[22Dec2024 00:54:06.484] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-71, y=1, z=292} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=west,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
-[22Dec2024 00:54:06.487] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-69, y=1, z=291} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=east,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
-[22Dec2024 00:54:06.488] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-67, y=1, z=290} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=south,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
-[22Dec2024 00:54:06.490] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-75, y=1, z=298} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=east,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
-[22Dec2024 00:54:06.492] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-69, y=1, z=293} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=east,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
-[22Dec2024 00:54:06.493] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-72, y=1, z=291} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=south,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
-[22Dec2024 00:54:06.495] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-71, y=1, z=291} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=west,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
-[22Dec2024 00:54:06.497] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-61, y=1, z=290} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=west,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
-[22Dec2024 00:54:06.499] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-64, y=1, z=298} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=north,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
-[22Dec2024 00:54:06.500] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-63, y=1, z=298} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=north,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
-[22Dec2024 00:54:21.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> xd
-[22Dec2024 00:54:33.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> tenerlas a mano
-[22Dec2024 00:54:37.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> pa enderpearls
-[22Dec2024 00:54:42.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> pa guardarlas
-[22Dec2024 00:55:04.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> y asi traerlas en yqs 6 mochilas y llenar 3 cofres
-[22Dec2024 00:55:06.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> yk
-[22Dec2024 00:55:26.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Teleported Lxkherr to Its_edurneee]
-[22Dec2024 00:55:53.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Teleported Lxkherr to Its_edurneee]
-[22Dec2024 00:55:54.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JAJAJ
-[22Dec2024 00:56:30.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> si
-[22Dec2024 00:56:40.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> si
-[22Dec2024 00:56:46.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set the time to 1000]
-[22Dec2024 00:56:52.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
-[22Dec2024 00:56:54.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> e
-[22Dec2024 00:57:03.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> no escucho con los cosos
-[22Dec2024 00:57:07.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
-[22Dec2024 00:57:20.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> nunca
-[22Dec2024 00:57:31.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Teleported Lxkherr to Its_edurneee]
-[22Dec2024 00:58:04.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> me puse en creativo para hacer lo de los blazes y ya ni peaceful ni na
-[22Dec2024 00:58:14.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Spectator Mode]
-[22Dec2024 00:58:14.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> un caminito
-[22Dec2024 00:58:26.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
-[22Dec2024 00:58:48.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Spectator Mode]
-[22Dec2024 00:58:54.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
-[22Dec2024 00:59:04.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> di
-[22Dec2024 00:59:14.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> cual?
-[22Dec2024 00:59:31.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> LO DEL GATO NO ME PARECIA MAL E
-[22Dec2024 00:59:48.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> puedo hacer la granja pero no aqui
-[22Dec2024 00:59:49.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
-[22Dec2024 00:59:54.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
-[22Dec2024 01:00:06.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> "una hecha"
-[22Dec2024 01:00:11.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> KAJAJA
-[22Dec2024 01:00:16.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> pq es chiquita
-[22Dec2024 01:00:19.455] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4230ms or 84 ticks behind
-[22Dec2024 01:00:31.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> tu dices de hacer una mega granja de caña no?
-[22Dec2024 01:00:33.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Teleported Lxkherr to Its_edurneee]
-[22Dec2024 01:00:38.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Adventure Mode]
-[22Dec2024 01:00:39.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
-[22Dec2024 01:00:40.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Spectator Mode]
-[22Dec2024 01:00:44.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> va va
-[22Dec2024 01:00:45.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
-[22Dec2024 01:01:06.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> tu haces la durisima de antes y yo la mega granja de caña y el gato
-[22Dec2024 01:01:28.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> eso
-[22Dec2024 01:01:30.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JAJJA
-[22Dec2024 01:01:45.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> por eso
-[22Dec2024 01:01:48.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> lo haces tu
-[22Dec2024 01:02:04.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
-[22Dec2024 01:02:16.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
-[22Dec2024 01:02:28.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Spectator Mode]
-[22Dec2024 01:02:32.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Creative Mode]
-[22Dec2024 01:02:36.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JAJAJAJJA
-[22Dec2024 01:02:38.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> nono
-[22Dec2024 01:02:39.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
-[22Dec2024 01:02:40.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> q me va lag
-[22Dec2024 01:02:49.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ven
-[22Dec2024 01:02:51.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
-[22Dec2024 01:03:03.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
-[22Dec2024 01:03:10.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Teleported Lxkherr to Its_edurneee]
-[22Dec2024 01:04:03.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee was slain by Lxkherr
-[22Dec2024 01:04:10.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> holy
-[22Dec2024 01:04:12.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
-[22Dec2024 01:04:21.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
-[22Dec2024 01:04:39.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Adventure Mode]
-[22Dec2024 01:04:40.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
-[22Dec2024 01:04:41.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Spectator Mode]
-[22Dec2024 01:04:48.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
-[22Dec2024 01:05:22.033] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_edurneee lost connection: Disconnected
-[22Dec2024 01:05:22.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee left the game
-[22Dec2024 01:05:37.443] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@72065a20
-[22Dec2024 01:05:37.453] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Its_edurneee[/100.94.146.84:52943] logged in with entity id 7181 at (3620.2694528709208, 65.0, -654.4481380779629)
-[22Dec2024 01:05:37.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee joined the game
-[22Dec2024 01:05:37.509] [Server thread/INFO] [Jade/]: Syncing config to Its_edurneee (760bb912-9e2f-3aa8-bd52-d489e01ce241)
-[22Dec2024 01:05:56.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
-[22Dec2024 01:06:01.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
-[22Dec2024 01:06:23.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set the time to 1000]
-[22Dec2024 01:07:43.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Spectator Mode]
-[22Dec2024 01:07:51.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> e
-[22Dec2024 01:07:57.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
-[22Dec2024 01:08:05.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> tengo la neurona al 2%
-[22Dec2024 01:08:21.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lxkherr fell from a high place
-[22Dec2024 01:08:26.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> what
-[22Dec2024 01:08:28.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Teleported Lxkherr to Its_edurneee]
-[22Dec2024 01:08:49.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> idk la granja no?
-[22Dec2024 01:09:02.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> otro dia entonces?
-[22Dec2024 01:09:09.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> el gato
-[22Dec2024 01:09:16.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> busca a ver si hay tuto
-[22Dec2024 01:09:19.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> de algun gato
-[22Dec2024 01:09:25.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> o sino ya miro yo
-[22Dec2024 01:09:31.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> voy
-[22Dec2024 01:13:30.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Spectator Mode]
-[22Dec2024 01:13:32.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
-[22Dec2024 01:13:54.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> mira dc
-[22Dec2024 01:14:03.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> sebas
-[22Dec2024 01:14:05.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
-[22Dec2024 01:14:11.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> temato
-[22Dec2024 01:14:16.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ya puedes tapar eso
-[22Dec2024 01:14:18.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
-[22Dec2024 01:15:59.331] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_edurneee lost connection: Disconnected
-[22Dec2024 01:15:59.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee left the game
-[22Dec2024 01:16:19.108] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@209597a0
-[22Dec2024 01:16:19.121] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Its_edurneee[/100.94.146.84:53208] logged in with entity id 8856 at (3627.012499988079, 71.0, -678.9579025226479)
-[22Dec2024 01:16:19.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee joined the game
-[22Dec2024 01:16:19.225] [Server thread/INFO] [Jade/]: Syncing config to Its_edurneee (760bb912-9e2f-3aa8-bd52-d489e01ce241)
-[22Dec2024 01:17:10.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> q
-[22Dec2024 01:17:26.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> e
-[22Dec2024 01:17:31.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> pq tienes cohetes y yo no
-[22Dec2024 01:17:42.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> estafador
-[22Dec2024 01:17:58.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> estafador
-[22Dec2024 01:18:00.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> estafador
-[22Dec2024 01:18:01.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> estafador
-[22Dec2024 01:18:02.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> estafador
-[22Dec2024 01:18:02.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> estafador
-[22Dec2024 01:18:05.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> estafador
-[22Dec2024 01:18:25.740] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2265ms or 45 ticks behind
-[22Dec2024 01:18:26.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> idk
-[22Dec2024 01:18:29.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> e
-[22Dec2024 01:18:32.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ns si lo use
-[22Dec2024 01:18:41.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> creo qsi
-[22Dec2024 01:18:49.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> las farmeo
-[22Dec2024 01:18:56.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> si me haces 1 stack de cohetes
-[22Dec2024 01:19:04.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> y decides el maldito gato
-[22Dec2024 01:19:18.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> a
-[22Dec2024 01:19:19.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Teleported Lxkherr to Its_edurneee]
-[22Dec2024 01:19:24.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> DECCIDES Y TE CALLAS
-[22Dec2024 01:19:30.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> pqsi
-[22Dec2024 01:19:54.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> a
-[22Dec2024 01:20:08.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> pues bien q me preguntaste antes que si hacuiamos aquella
-[22Dec2024 01:20:30.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> PERDONA
-[22Dec2024 01:20:35.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> a
-[22Dec2024 01:20:38.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> si
-[22Dec2024 01:20:48.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> tu me ayudas yo te ayudo
-[22Dec2024 01:21:01.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ven
-[22Dec2024 01:22:59.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> 17 xd
-[22Dec2024 01:23:12.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> a
-[22Dec2024 01:23:30.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ni entre
-[22Dec2024 01:23:58.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set the time to 1000]
-[22Dec2024 01:24:19.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> voy a farmear la madera q no quiere el ninio
-[22Dec2024 01:24:28.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JAJJA SI
-[22Dec2024 01:24:30.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ñ
-[22Dec2024 01:24:37.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> pero me da risa poner ninio
-[22Dec2024 01:24:46.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> sirve cualquier madera?
-[22Dec2024 01:24:57.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
-[22Dec2024 01:25:39.286] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_edurneee moved too quickly! -2.7901320363826017,0.0,-10.525337652720054
-[22Dec2024 01:26:04.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> va
-[22Dec2024 01:26:23.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> a
-[22Dec2024 01:26:41.313] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2488ms or 49 ticks behind
-[22Dec2024 01:26:43.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> music dj
-[22Dec2024 01:27:06.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> qva
-[22Dec2024 01:27:08.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> cnd?
-[22Dec2024 01:27:13.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> c n d?
-[22Dec2024 01:27:22.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> amo la cancion septiembre sooo
-[22Dec2024 01:27:26.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
-[22Dec2024 01:28:40.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> a
-[22Dec2024 01:28:41.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
-[22Dec2024 01:28:51.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> me caigo desde como mas de 70 bloques
-[22Dec2024 01:28:55.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> y no muero
-[22Dec2024 01:28:58.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> y encima
-[22Dec2024 01:29:14.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> caigo al lado de lava y por un minipixel no mori quemada
-[22Dec2024 01:29:18.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> que suerte
-[22Dec2024 01:29:30.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
-[22Dec2024 01:29:33.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> q
-[22Dec2024 01:29:45.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Spectator Mode]
-[22Dec2024 01:29:50.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
-[22Dec2024 01:30:15.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> oki
-[22Dec2024 01:30:30.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> yoqhagow
-[22Dec2024 01:31:07.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ylamaderatonces?
-[22Dec2024 01:31:22.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Spectator Mode]
-[22Dec2024 01:31:42.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
-[22Dec2024 01:31:46.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> chill
-[22Dec2024 01:32:07.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> hare el gato y ya vere
-[22Dec2024 01:32:37.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> si
-[22Dec2024 01:32:42.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> tirame tp
-[22Dec2024 01:32:45.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Teleported Lxkherr to Its_edurneee]
-[22Dec2024 01:32:53.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> nomefio
-[22Dec2024 01:33:00.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> haztetp y hazme tp
-[22Dec2024 01:33:09.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> devuelvemela e
-[22Dec2024 01:33:38.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> eso era el pico
-[22Dec2024 01:33:43.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> nop
-[22Dec2024 01:33:43.362] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3495, y=59, z=-1112} BlockPos{x=3494, y=57, z=-1112}
-[22Dec2024 01:33:55.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> la pala la farmee ya con la de endermans
-[22Dec2024 01:34:21.858] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=3482, y=62, z=-1111} BlockPos{x=3482, y=61, z=-1113}
-[22Dec2024 01:34:36.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> e
-[22Dec2024 01:34:39.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Teleported Lxkherr to Its_edurneee]
-[22Dec2024 01:35:06.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set the time to 1000]
-[22Dec2024 01:36:05.965] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2640ms or 52 ticks behind
-[22Dec2024 01:36:05.987] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_edurneee moved too quickly! 3.5173559784902864,1.962298461454182,17.151839681315778
-[22Dec2024 01:36:09.747] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=3736, y=60, z=-690} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=east,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
-[22Dec2024 01:36:11.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Spectator Mode]
-[22Dec2024 01:36:14.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Set own game mode to Survival Mode]
-[22Dec2024 01:37:17.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> cuando te vayas empiezo con el gato
-[22Dec2024 01:37:26.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> tendre q iniciar el sv
-[22Dec2024 01:37:28.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lxkherr> se va a poner en creativo
-[22Dec2024 01:37:29.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lxkherr> :sob:
-[22Dec2024 01:37:40.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> xd
-[22Dec2024 01:37:42.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ns
-[22Dec2024 01:37:43.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JAJAJ
-[22Dec2024 01:38:12.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> dependera de si decido hacerlo con los materiales del video o de piedra
-[22Dec2024 01:38:57.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lxkherr> vaya
-[22Dec2024 01:39:24.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> dependera de eso
-[22Dec2024 01:40:11.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lxkherr> saco unbreaking en algun aldeano
-[22Dec2024 01:40:13.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lxkherr> y me voy
-[22Dec2024 01:40:17.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> va
-[22Dec2024 01:40:31.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> me voy a poner el enterizo give me a sec
-[22Dec2024 01:42:26.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lxkherr> ahora q lo pienso
-[22Dec2024 01:42:29.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lxkherr> no ssirve de nada
-[22Dec2024 01:42:31.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lxkherr> q busque
-[22Dec2024 01:42:34.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lxkherr> el unb
-[22Dec2024 01:42:37.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lxkherr> si no tengo esmeraldas
-[22Dec2024 01:42:38.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lxkherr> cxd
-[22Dec2024 01:42:39.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lxkherr> xd
-[22Dec2024 01:44:40.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> volvi
-[22Dec2024 01:44:54.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> me voy a poner el enterizo give me a sec (si)
-[22Dec2024 01:44:56.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JJAAJA
-[22Dec2024 01:44:59.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> no me lees
-[22Dec2024 01:45:16.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> el pijama
-[22Dec2024 01:45:23.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JAJAJJAA
-[22Dec2024 01:45:30.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> como el de rudolf
-[22Dec2024 01:45:40.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JAJAJA
-[22Dec2024 01:46:00.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> al final el piajama que me compre es de pikachu
-[22Dec2024 01:46:03.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> pijama**
-[22Dec2024 01:46:28.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> bueno
-[22Dec2024 01:46:39.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> qvasahacer
-[22Dec2024 01:47:42.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ya veremos
-[22Dec2024 01:47:49.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> si la hago hoy
-[22Dec2024 01:47:58.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ns si la voy a hacer
-[22Dec2024 01:48:13.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> pq llevo mas de 10horas delante de la pantalla
-[22Dec2024 01:48:24.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> y ya me arden un pco los ojos
-[22Dec2024 01:48:31.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ayer estuve 14
-[22Dec2024 01:48:48.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> q
-[22Dec2024 01:48:49.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> a
-[22Dec2024 01:49:08.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> 480 solo?
-[22Dec2024 01:49:13.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JAJJA
-[22Dec2024 01:49:16.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> li yo
-[22Dec2024 01:49:19.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> lit
-[22Dec2024 01:49:29.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> 3.75 y 4.25
-[22Dec2024 01:49:34.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JAJA
-[22Dec2024 01:49:44.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> se de alguien que tiene 7 en cada uno
-[22Dec2024 01:49:55.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> si
-[22Dec2024 01:49:57.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> mi pai
-[22Dec2024 01:50:12.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> se de alguien que tiene 7 en cada uno por familia JAJJAJA
-[22Dec2024 01:50:25.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> y es muy cercana a mis
-[22Dec2024 01:50:28.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> mi*
-[22Dec2024 01:50:39.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> saca conclusiones
-[22Dec2024 01:50:56.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> el año pasao tenia 1.75 y 2.25
-[22Dec2024 01:50:58.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JJAAJ
-[22Dec2024 01:51:03.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> subio basto
-[22Dec2024 01:51:20.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> xd
-[22Dec2024 01:51:37.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> peroqhaces
-[22Dec2024 01:51:42.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> donde
-[22Dec2024 01:51:55.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> los esclavos no tenian ub?
-[22Dec2024 01:52:01.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> a
-[22Dec2024 01:52:04.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> el rata
-[22Dec2024 01:52:21.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> pon
-[22Dec2024 01:52:28.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> kid keo
-[22Dec2024 01:52:32.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ilikethat
-[22Dec2024 01:52:35.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> obvio
-[22Dec2024 01:52:51.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> soy una tia con gustos musicales de un cani
-[22Dec2024 01:53:10.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> y me pones celine
-[22Dec2024 01:53:14.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> maemia
-[22Dec2024 01:53:46.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> pasala si ves q tal
-[22Dec2024 01:53:53.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> que puse al verdadero kiddkeo
-[22Dec2024 01:54:09.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> a
-[22Dec2024 01:54:14.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> pusiste dos
-[22Dec2024 01:54:15.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> JAJJA
-[22Dec2024 01:54:21.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> a
-[22Dec2024 01:54:37.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> bro está la 11 la mejor
-[22Dec2024 01:54:41.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> mentira
-[22Dec2024 01:54:44.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> la 5
-[22Dec2024 01:54:59.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> esa
-[22Dec2024 01:55:24.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> esto lo escucha mi mai y no es broma
-[22Dec2024 01:57:25.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> si quieres lo busco yo
-[22Dec2024 01:57:38.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> pa q te puedas ir a dormir
-[22Dec2024 01:57:50.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> si pero mas tarde
-[22Dec2024 01:58:00.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> yo mañana no madrugo pa jugar al padel
-[22Dec2024 01:58:49.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> e?
-[22Dec2024 01:58:55.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ah
-[22Dec2024 01:59:13.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> deja q lo hago yo
-[22Dec2024 01:59:20.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> dimeq quieres y listo
-[22Dec2024 01:59:27.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Teleported Its_edurneee to Lxkherr]
-[22Dec2024 01:59:40.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Spectator Mode]
-[22Dec2024 01:59:42.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
-[22Dec2024 01:59:42.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Lxkherr: Teleported Its_edurneee to Lxkherr]
-[22Dec2024 02:00:13.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> y yo parada afk mirando reels
-[22Dec2024 02:00:29.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> importancia a lo importante
-[22Dec2024 02:01:41.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> dame 1 min
-[22Dec2024 02:02:32.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Lxkherr> avisame cuando vuelvas
-[22Dec2024 02:02:39.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ya
-[22Dec2024 02:03:15.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> aunque me voy cuando te vayas
-[22Dec2024 02:03:23.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> estoy reventada
-[22Dec2024 02:04:05.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ya te vas?
-[22Dec2024 02:04:10.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> va
-[22Dec2024 02:04:15.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> me voy
-[22Dec2024 02:04:17.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Its_edurneee> ig
-[22Dec2024 02:04:19.431] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Lxkherr lost connection: Disconnected
-[22Dec2024 02:04:19.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Lxkherr left the game
-[22Dec2024 02:04:19.445] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_edurneee lost connection: Disconnected
-[22Dec2024 02:04:19.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee left the game
+[23Dec2024 22:22:09.306] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[23Dec2024 22:22:09.313] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[23Dec2024 22:22:09.909] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/sturdy-funicular/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[23Dec2024 22:22:10.330] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/sturdy-funicular/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[23Dec2024 22:22:10.334] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/sturdy-funicular/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[23Dec2024 22:22:10.340] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/sturdy-funicular/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[23Dec2024 22:22:10.342] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/sturdy-funicular/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[23Dec2024 22:22:10.560] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[23Dec2024 22:22:13.270] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23Dec2024 22:22:13.319] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[23Dec2024 22:22:21.188] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[23Dec2024 22:22:24.844] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[23Dec2024 22:22:24.845] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[23Dec2024 22:22:27.580] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[23Dec2024 22:22:27.584] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[23Dec2024 22:22:27.584] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[23Dec2024 22:22:27.584] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[23Dec2024 22:22:27.585] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[23Dec2024 22:22:27.588] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[23Dec2024 22:22:27.591] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[23Dec2024 22:22:27.619] [main/INFO] [journeymap/]: Initializing Packet Registries
+[23Dec2024 22:22:27.673] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[23Dec2024 22:22:27.730] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[23Dec2024 22:22:27.753] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[23Dec2024 22:22:27.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[23Dec2024 22:22:29.616] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre35 Target: 7.0.0-pre35
+[23Dec2024 22:22:29.616] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23Dec2024 22:22:29.815] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.4.6
+[23Dec2024 22:22:29.815] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Starting version check at https://maxhenkel.de/update/reap.json
+[23Dec2024 22:22:30.107] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Found status: UP_TO_DATE Current: 1.19.2-1.0.0 Target: null
+[23Dec2024 22:22:30.109] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[23Dec2024 22:22:30.413] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.7 Target: 5.9.8
+[23Dec2024 22:22:31.371] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23Dec2024 22:22:32.880] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/sturdy-funicular/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23119!/assets/.mcassetsroot' uses unexpected schema
+[23Dec2024 22:22:32.881] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/sturdy-funicular/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23119!/data/.mcassetsroot' uses unexpected schema
+[23Dec2024 22:22:36.764] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[23Dec2024 22:22:37.450] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1962 advancements
+[23Dec2024 22:22:38.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[23Dec2024 22:22:38.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[23Dec2024 22:22:38.318] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[23Dec2024 22:22:38.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Dec2024 22:22:38.526] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[23Dec2024 22:22:38.631] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[23Dec2024 22:22:38.760] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23Dec2024 22:22:38.763] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[23Dec2024 22:22:38.763] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23Dec2024 22:22:38.765] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[23Dec2024 22:22:38.810] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[23Dec2024 22:22:38.811] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[23Dec2024 22:22:38.812] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[23Dec2024 22:22:38.881] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[23Dec2024 22:22:39.434] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[23Dec2024 22:22:39.435] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[23Dec2024 22:22:51.154] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Dec2024 22:22:52.025] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Dec2024 22:22:52.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Dec2024 22:22:53.191] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Dec2024 22:22:53.910] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Dec2024 22:22:57.413] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Dec2024 22:22:59.588] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:22:59.590] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:22:59.602] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:22:59.621] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:22:59.640] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:22:59.708] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:22:59.743] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:22:59.779] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:22:59.798] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:22:59.853] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:22:59.872] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:22:59.873] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:22:59.944] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:22:59.961] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:23:00.057] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:23:00.168] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:23:00.342] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:23:00.842] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Dec2024 22:23:01.342] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[23Dec2024 22:23:01.845] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[23Dec2024 22:23:02.050] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9709 ms
+[23Dec2024 22:23:02.051] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (23.268s)! For help, type "help"
+[23Dec2024 22:23:02.065] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Dec2024 22:30:30.878] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[23Dec2024 22:30:31.043] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@401b11f0
+[23Dec2024 22:30:31.072] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Its_edurneee[/100.94.146.84:55907] logged in with entity id 37 at (2966.9199912323156, 64.0, -2875.673611933828)
+[23Dec2024 22:30:31.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Its_edurneee joined the game
+[23Dec2024 22:30:31.265] [Server thread/INFO] [Jade/]: Syncing config to Its_edurneee (760bb912-9e2f-3aa8-bd52-d489e01ce241)
+[23Dec2024 22:30:35.254] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4286ms or 85 ticks behind
