@@ -112,3 +112,6 @@
 [25Dec2024 18:02:42.133] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Its_edurneee moved too quickly! 10.41734202735779,0.0,-0.851729774037608
 [25Dec2024 18:10:00.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set the time to 1000]
 [25Dec2024 18:39:36.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set the time to 1000]
+[25Dec2024 18:46:35.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Survival Mode]
+[25Dec2024 18:47:00.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set own game mode to Creative Mode]
+[25Dec2024 18:48:52.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Its_edurneee: Set the time to 1000]
